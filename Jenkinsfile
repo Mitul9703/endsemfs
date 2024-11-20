@@ -7,7 +7,7 @@ pipeline {
             steps {
                     
                     bat 'docker build -t flaskappp .'
-                    bat 'docker run -d -p 5000:5000 flaskappp'
+                    bat 'docker run -d -p 5005:5000 flaskappp'
                 
             }
         }
